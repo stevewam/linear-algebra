@@ -111,6 +111,12 @@
 
 - all symmetric matrices have real eigenvalues
 
+- intuition on eigenvalues and eigenvectors:
+
+  - eigenvectors are characteristic vectors that remain within its span when applied to matrix $A$, eigenvalue is the factor it was stretched or squeezed during the transformation
+  - negative eigenvalue: the eigenvectors are flipped
+  - in 3D, eigenvectors are axes of rotations
+
 - example:
   $$
   A = \left(\begin{array}{cc}0&1\\1&0\end{array}\right)\\
@@ -126,6 +132,8 @@
   \lambda_2 = 1 \quad x_1 = \left(\begin{array}{c}1\\1\end{array}\right)\\
   $$
   
+
+
 
 **LOS 7**. Matrix diagonalization
 
